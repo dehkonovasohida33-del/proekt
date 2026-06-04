@@ -1,8 +1,9 @@
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body{
     background-color: lightgray;
     display: flex;
@@ -22,18 +23,12 @@ body{
     justify-content: space-between;
 }
 
-.rang { 
+.rang{
     background-color: red;
-    border-radius: 25px;
-    border: none;
-}
-
-.buttonlar{
-    /* width: 170px; */
-    /* height: 45px; */
-    /* background-color: red; */
     color: white;
-    
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 18px;
 }
 
 .rasmlar{
@@ -42,9 +37,12 @@ body{
     margin-top: 60px;
 }
 
+.rasmlar img{
+    width: 400px;
+    border-radius: 10px;
+}
 
-
-.title-box{
+.main_title{
     width: 220px;
     height: 90px;
     background-color: black;
@@ -58,12 +56,12 @@ body{
     margin: 40px auto;
 }
 
-.cards{
+.main_parent{
     display: flex;
     justify-content: space-between;
 }
 
-.card{
+.box{
     width: 340px;
     height: 170px;
     background-color: red;
@@ -74,7 +72,7 @@ body{
     align-items: center;
 }
 
-.text-korobka{
+.box p{
     width: 250px;
     background-color: lime;
     padding: 15px;
